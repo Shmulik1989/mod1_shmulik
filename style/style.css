@@ -13,6 +13,12 @@ aside {
 aside img {
     width: 100%
 }
+
 main {
-	flex: 1;
+    flex: 1;
+}
+
+body {
+    background-color: green;
+    font-style: italic;
 }
