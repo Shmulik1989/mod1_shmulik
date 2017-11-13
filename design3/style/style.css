@@ -1,24 +1,30 @@
-    header,
-    section {
-        display: flex;
-    }
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    color: white;
+}
 
-    #logo,
-    aside {
-        width: 200px;
-        margin-right: 20px;
-    }
+#logo {
+    width: 200px;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+}
+.link {
+    color: white;
+    font-family: fantasy;
+    text-decoration: none;
+}
 
-    #logo img,
-    aside img {
-        width: 100%
-    }
+.nav {
+    position: fixed;
+    top: 25px;
+    right: 30px;
+}
+main {
+    font-family: fantasy;
+    color: white;
+    background-color: rgba(20, 20, 20, 0.5);
 
-    main {
-        flex: 1;
-    }
-
-    body {
-        background-color: green;
-        font-family: fantasy;
-    }
+}
