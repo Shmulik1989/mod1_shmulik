@@ -1,32 +1,51 @@
-body {
-	margin: 0;
-}
+    body {
+        margin: 0;
+    }
 
 
-#mainpic {
-	background-image: url(../images/design1_image1.jpeg);
-	height: 300px;
-	background-size: cover;
-}
-h1 {
-	margin: 0;
-	font-size: 50px;
-	padding-left: 20px;
-	opacity: 0.8;
-}
+    #mainpic {
+        background-image: url(../images/design1_image1.jpeg);
+        height: 300px;
+        background-size: cover;
+    }
 
-.about {
-	text-align: center;
-	font-size: 30px;
-}
+    h1 {
+        margin: 0;
+        font-size: 50px;
+        padding-left: 20px;
+        opacity: 0.8;
+        font-family: fantasy;
+    }
 
-img {
-	width: 180px;
-	position: absolute;
-	top: 250px;
-	right: 100px;
-}	
-ul {
-	list-style: none;
-}
-.li
+    .about {
+        text-align: center;
+        font-size: 30px;
+        font-family: fantasy;
+        box-shadow: 0.6;
+    }
+
+    img {
+        width: 180px;
+        position: absolute;
+        top: 250px;
+        right: 100px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .link,
+    a {
+        padding: 20px;
+        font-family: fantasy;
+        text-decoration: none;
+        color: black;
+    }
+
+    .main {
+        position: absolute;
+        left: 150px;
+        font-family: fantasy;
+        margin-left: 30px;
+    }
