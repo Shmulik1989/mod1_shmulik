@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    font-family: fantasy;
+    font-family: monospace;
 }
 
 #mainpic {
-    background-image: url(../images/design2_image1.jpeg);
+    background-image: url(../images/banner.jpeg);
     height: 300px;
     background-size: cover;
 }
@@ -12,6 +12,17 @@ body {
 h1 {
     font-size: 45px;
 }
+
+#fall {
+    text-align: center;
+    font-size: 37px;
+}
+
+#games {
+    text-align: center;
+    text-decoration: underline;
+}
+
 
 .about {
     text-align: center;
@@ -32,18 +43,11 @@ ol {
     list-style: decimal;
 }
 
-
-
-
-}
-
 h4 {
     position: absolute;
     bottom: 100px;
     right: 900px;
 }
-
-
 
 main {
     width: 60%;
@@ -57,7 +61,6 @@ img {
     bottom: 10px;
     left: 50px;
 }
-
 
 .link {
     padding: 8px;
@@ -87,4 +90,27 @@ nav {
 
 .fields {
     list-style: lower-alpha;
+}
+
+.tables{
+    display: flex;
+}
+
+.september {
+    border: 1px solid black;
+    border-spacing: 17px;
+}
+
+.october {
+    margin-left: 20px;
+    border: 1px solid black;
+    border-spacing: 17px;
+}
+
+.content {
+    font-size: 20px;
+}
+
+#contact {
+    font-size: 30px;
 }
