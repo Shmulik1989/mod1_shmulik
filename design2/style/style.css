@@ -1,6 +1,11 @@
 body {
     margin: 0;
-    font-family: monospace;
+    font-family: verdana;
+    color: white;
+    opacity: 0.8;
+    background-color: white;
+    background-size: cover;
+    background-image: url(../images/stadium.jpeg);
 }
 
 #mainpic {
@@ -16,11 +21,13 @@ h1 {
 #fall {
     text-align: center;
     font-size: 37px;
+    text-shadow: 3px 3px green;
 }
 
 #games {
     text-align: center;
     text-decoration: underline;
+    text-shadow: 1px 1px green;
 }
 
 
@@ -29,6 +36,7 @@ h1 {
     font-size: 30px;
     border: 2px solid black;
     margin-top: 0;
+    text-shadow: 3px 3px green;
 }
 
 .fifa {
@@ -63,12 +71,13 @@ img {
 }
 
 .link {
-    padding: 8px;
+    padding: 5px;
     text-decoration: none;
     color: white;
-    border: 2px solid black;
-    background-color: darkblue;
+    border: 1px solid white;
+    background-color: black;
     margin: 0px 10px 0px 10px;
+    text-shadow: 3px 3px green;
 }
 
 .main {
@@ -76,6 +85,31 @@ img {
     left: 250px;
     margin-left: 30px;
     top: 450px;
+}
+
+.main_index {
+    font-size: 20px;
+}
+
+.main_contact {
+    font-size: 20px;
+}
+
+.main_about {
+    font-size: 20px;
+}
+
+#contact {
+    font-size: 20px;
+}
+
+#contact a {
+    color: black;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
 }
 
 nav {
@@ -92,18 +126,25 @@ nav {
     list-style: lower-alpha;
 }
 
-.tables{
+.tables {
     display: flex;
 }
 
+.flexbox {
+    display: flex;
+    margin: 10px 0;
+}
+
+
+
 .september {
-    border: 1px solid black;
+    border: 1px solid white;
     border-spacing: 17px;
 }
 
 .october {
     margin-left: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-spacing: 17px;
 }
 
@@ -111,6 +152,81 @@ nav {
     font-size: 20px;
 }
 
-#contact {
-    font-size: 30px;
+
+
+#address {
+    width: 30%;
+}
+
+#parent_guardian {
+    width: 50%;
+}
+
+#phone {
+    width: 30%;
+}
+
+#email {
+    width: 35%;
+}
+
+#permission {
+    text-decoration: underline;
+}
+
+#shorts {
+    display: inline;
+}
+
+#jersey {
+    display: inline;
+}
+
+#closest_school {
+    display: inline;
+}
+
+#second_closest {
+    display: inline;
+}
+
+.maps {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+#games_location {
+    font-size: 37px;
+    text-shadow: 3px 3px green;
+}
+
+.schools {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+#katzenmaier {
+    padding-right: 5%;
+}
+
+#howard {
+    padding-right: 5%;
+}
+
+#north {
+    padding-right: 5%;
+}
+
+#submit:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    font-size: 25px;
+    color: green;
+    display: block;
+    position: relative;
+    top: 1px;
+    left: 50%;
 }
