@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     font-family: verdana;
     color: white;
@@ -16,6 +17,7 @@ body {
 }
 
 h1 {
+    white-space: nowrap;
     font-size: 45px;
     text-shadow: 3px 3px green;
 }
@@ -117,6 +119,7 @@ nav {
     position: absolute;
     top: 90px;
     right: 50px;
+    white-space: nowrap;
 }
 
 #allplay {
