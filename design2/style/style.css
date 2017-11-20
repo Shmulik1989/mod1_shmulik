@@ -1,5 +1,8 @@
+/*@import 'reset.css';*/
+
 body {
     width: 100%;
+    height: 100%;
     margin: 0;
     font-family: verdana;
     color: white;
@@ -72,6 +75,8 @@ img {
     position: fixed;
     bottom: 10px;
     left: 50px;
+    opacity: 0.8;
+    
 }
 
 .link {
@@ -80,7 +85,7 @@ img {
     color: white;
     border: 1px solid white;
     background-color: black;
-    margin: 0px 10px 0px 10px;
+    
 }
 
 .main {
@@ -116,10 +121,15 @@ img {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     top: 90px;
-    right: 50px;
-    white-space: nowrap;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    opacity: 0.8;
+
+    
 }
 
 #allplay {
@@ -144,12 +154,14 @@ nav {
 .september {
     border: 1px solid white;
     border-spacing: 17px;
+    display: block;
 }
 
 .october {
     margin-left: 20px;
     border: 1px solid white;
     border-spacing: 17px;
+    display: block;
 }
 
 .content {
