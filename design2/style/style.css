@@ -6,6 +6,7 @@ body {
     background-color: white;
     background-size: cover;
     background-image: url(../images/stadium.jpeg);
+    background-attachment: fixed;
 }
 
 #mainpic {
@@ -78,7 +79,6 @@ img {
     border: 1px solid white;
     background-color: black;
     margin: 0px 10px 0px 10px;
-
 }
 
 .main {
